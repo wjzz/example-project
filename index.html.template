@@ -7,7 +7,7 @@
     <title>Example document</title>
 </head>
 <body>
-    Hello, this is app version TODO. 
+    Hello, this is app version {{TODO}}. 
 
     This is now auto-published.
 </body>
