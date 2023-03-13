@@ -1,0 +1,15 @@
+name: Test workflow
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1
+        run: |
+          pwd
+          ls
+          git status
