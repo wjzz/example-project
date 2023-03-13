@@ -10,6 +10,7 @@ jobs:
     steps:
       - name: Step 1
         run: |
-          pwd
-          ls
-          git status
+          echo "Ref name = <<"
+          echo ${{ github.ref_name }}
+          echo ">>"
+          
